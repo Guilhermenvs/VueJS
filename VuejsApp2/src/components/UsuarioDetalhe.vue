@@ -13,6 +13,7 @@
     import barramento from '@/barramento'
 
     export default {
+        name: 'UsuarioDetalhe',
         data() {
             return {
                 usuario: null

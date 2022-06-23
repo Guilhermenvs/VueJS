@@ -22,6 +22,7 @@
     import barramento from '@/barramento'
 
     export default {
+        name: 'UsuarioLista',
         props: { usuarios: Array },
         methods: {
             setUsuarioSelecionado(usuario) {
