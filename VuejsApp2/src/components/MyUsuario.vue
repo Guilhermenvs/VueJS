@@ -1,4 +1,4 @@
-﻿<template>
+﻿<template>  
     <div id="myusuario">
         <usuario-lista :usuarios="usuarios" />
         <usuario-detalhe />
@@ -6,8 +6,8 @@
 </template>
 
 <script>
-    import UsuarioLista from './UsuarioLista.vue'
-    import UsuarioDetalhe from './UsuarioDetalhe.vue'
+    import UsuarioLista from './Usuario/UsuarioLista.vue'
+    import UsuarioDetalhe from './Usuario/UsuarioDetalhe.vue'
 
     export default {
         name: "myusuario",

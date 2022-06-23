@@ -31,8 +31,8 @@
   <ItemGroup>
     <Content Include="public\favicon.ico" />
     <Content Include="public\index.html" />
-    <Content Include="src\components\UsuarioDetalhe.vue" />
-    <Content Include="src\components\UsuarioLista.vue" />
+    <Content Include="src\components\Usuario\UsuarioDetalhe.vue" />
+    <Content Include="src\components\Usuario\UsuarioLista.vue" />
     <Content Include="src\components\MyUsuario.vue" />
     <Content Include="src\components\Desafio_2.vue">
       <SubType>Code</SubType>
@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
+    <Folder Include="src\components\Usuario\" />
     <Folder Include="src\router\" />
     <Folder Include="public\" />
     <Folder Include="src\" />

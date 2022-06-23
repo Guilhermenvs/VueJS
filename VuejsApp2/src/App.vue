@@ -15,6 +15,8 @@
         <router-link to="/desafio5">Desafio 5</router-link>
         &nbsp;
         <router-link to="/projeto1">Projeto 1</router-link>
+        &nbsp;
+        <router-link to="/MyUsuario">Usuarios</router-link>
         <hr />
         <router-view></router-view>
     </div>
