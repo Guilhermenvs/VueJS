@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1>Index</h1>
+        <h1>Projeto Vue</h1>
         <hr />
         <router-link to="/">Home</router-link>
         &nbsp;
