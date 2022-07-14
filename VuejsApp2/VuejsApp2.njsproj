@@ -31,9 +31,7 @@
   <ItemGroup>
     <Content Include="public\favicon.ico" />
     <Content Include="public\index.html" />
-    <Content Include="src\components\Usuario\UsuarioDetalhe.vue" />
-    <Content Include="src\components\Usuario\UsuarioLista.vue" />
-    <Content Include="src\components\MyUsuario.vue" />
+    <Content Include="src\components\Game.vue" />
     <Content Include="src\components\Desafio_2.vue">
       <SubType>Code</SubType>
     </Content>
@@ -49,7 +47,6 @@
     <Content Include="src\components\Projeto_1.vue">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="src\barramento.js" />
     <Content Include="src\router\index.js">
       <SubType>Code</SubType>
     </Content>
@@ -63,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
-    <Folder Include="src\components\Usuario\" />
     <Folder Include="src\router\" />
     <Folder Include="public\" />
     <Folder Include="src\" />

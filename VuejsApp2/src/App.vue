@@ -16,7 +16,7 @@
         &nbsp;
         <router-link to="/projeto1">Projeto 1</router-link>
         &nbsp;
-        <router-link to="/MyUsuario">Usuarios</router-link>
+        <router-link to="/game">Game</router-link>
         <hr />
         <router-view></router-view>
     </div>

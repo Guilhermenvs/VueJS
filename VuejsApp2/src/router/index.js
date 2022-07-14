@@ -6,7 +6,7 @@ import Desafio_3 from '../components/Desafio_3.vue'
 import Desafio_4 from '../components/Desafio_4.vue'
 import Desafio_5 from '../components/Desafio_5.vue'
 import Projeto_1 from '../components/Projeto_1.vue'
-import MyUsuario from '../components/MyUsuario.vue'
+import Game from '../components/Game.vue'
 
 const routes = [
     {
@@ -45,9 +45,9 @@ const routes = [
         component: Projeto_1
     },
     {
-        path: '/MyUsuario',
-        name: 'MyUsuario',
-        component: MyUsuario
+        path: '/game',
+        name: 'Game',
+        component: Game
     }
 ]
 
