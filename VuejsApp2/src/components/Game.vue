@@ -11,15 +11,14 @@
                 <h1 v-html="this.question">
                 </h1>
 
-                <template v-for="(answer, index) in this.answers" :key="index">
-                    <div>
-                        <input :disabled="!!+this.answerSubmitted"
-                           type="radio" name="options"
-                           :value="answer"
-                           v-model="this.chosen_answer">
-
-                    <label v-html="answer"></label>
-                    <br>
+                <template>
+                    <div v-for="(answer, index) in this.answers" :key="index">
+                        <input :disabled="disabled == !!this.answerSubmitted"
+                               type="radio" name="options"
+                               :value="answer"
+                               v-model="this.chosen_answer">
+                        <label v-html="answer"></label>
+                        <br>
                     </div>
                 </template>
 
