@@ -28,13 +28,13 @@
 
 
         <section class="result" v-if="this.answerSubmitted">
-            <template>
-                <div>
-                    <h4 v-if="this.chosen_answer == this.correctAnswer">&#9989; Parabéns, a resposta "{{this.correctAnswer}}" está correta.</h4>
-                    <h4 v-else>&#10060;  Que pena, a resposta está errada. A resposta correta é "{{this.correctAnswer}}".</h4>
-                    <button @click="this.getNewQuestion()" class="send" type="button">Próxima pergunta</button>
+                <div v-if="this.chosen_answer == this.correctAnswer">
+                    <h4>&#9989; Parabéns, a resposta "{{this.correctAnswer}}" está correta.</h4>
                 </div>
-            </template>
+                <div v-else>
+                    <h4>&#10060;  Que pena, a resposta está errada. A resposta correta é "{{this.correctAnswer}}".</h4>
+                </div>
+                <button @click="this.getNewQuestion()" class="send" type="button">Próxima pergunta</button>
         </section>
     </div>
 
