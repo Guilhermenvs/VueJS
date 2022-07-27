@@ -63,6 +63,7 @@
         },
         methods: {
             submitAnswer() {
+                console.log(this.chosen_answer);
                 if (!this.chosen_answer) {
                     alert('Pick one of the options');
                 } else {
